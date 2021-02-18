@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 /* 
  * The Director runs the show, they generally control the scene and influence the 'actors'
@@ -64,6 +65,10 @@ public class Director : MonoBehaviour
             charging = false;
             currentCharge = 0f;
         }
+
+        // Reloads Scene on Space
+        if(Input.GetKeyDown("space"))
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     public void AddScore(int score)
