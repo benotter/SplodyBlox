@@ -650,10 +650,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a9e3b6aa64207e49b08283b7c77a50e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxUpAngle: 0
-  maxDownAngle: 0
+  maxUpAngle: 45
+  maxDownAngle: -45
   distanceFromCenter: 6
-  cameraYOffset: 2
-  clickdragSpeed: 0
-  keydownSpeed: 0
-  maxCameraSpeed: 1
+  initialCameraYOffset: 2
+  clickdragSpeed: 3
+  keydownSpeed: 0.006
+  maxCameraSpeed: 0.3
+  maxCameraYSpeed: 0.003
+  currentHozAngle: 0
+  currentCameraYOffset: 0
