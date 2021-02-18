@@ -32,6 +32,16 @@ public class Director : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        bool mouseLeftDown = Input.GetButton("Fire1");
+
+        if(mouseLeftDown)
+        {
+            
+        }
+    }
+
+    public void AddScore(int score)
+    {
+        playerScore += score;
     }
 }

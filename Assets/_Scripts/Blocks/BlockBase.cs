@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 /*
  * The Base Class for blocks!
@@ -12,6 +13,8 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody))]
 public class BlockBase : MonoBehaviour
 {
+    // On Destroy event, this could be improved so that each block can have its own individual score worth
+    public UnityEvent onDestroy;
 
     // Option to destroy block after it falls past a certain Y point
     public bool destroyOnY = true;
@@ -31,6 +34,9 @@ public class BlockBase : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        if(onDestroy == null)
+            onDestroy = new UnityEvent();
+            
         startPos = transform.position;
     }
 
@@ -48,6 +54,7 @@ public class BlockBase : MonoBehaviour
     // Call to destory the block programatically!
     public void DestroyBlock()
     {
-
+        onDestroy.Invoke();
+        Destroy(gameObject);
     }
 }
