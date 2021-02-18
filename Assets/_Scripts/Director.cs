@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 /* 
  * The Director runs the show, they generally control the scene and influence the 'actors'
@@ -14,13 +15,26 @@ public class Director : MonoBehaviour
     // Lock Cursor in Window?
     public bool lockCursorOnStart = false;
 
+    [Space(10)]
+
+    // Projectile Settings
+    public float maxProjectileSpeed = 1f;
+    public float maxProjectileWeight = 2f;
+    public float maxProjectileSize = 2.5f;
+    public float maxChargeTime = 2f;
+
     // Just some formatting for the Editor Inspector
     [Space(10)]
+
+    public Text scoreText;
+    public GameObject projectileBase;
 
     // The players current score
     public int playerScore = 0;
 
 
+    private bool charging = false;
+    public float currentCharge = 0f;
 
     // Start is called before the first frame update
     void Start()
@@ -36,12 +50,45 @@ public class Director : MonoBehaviour
 
         if(mouseLeftDown)
         {
-            
+            if(!charging)
+                charging = true;
+            else
+            {
+                if(currentCharge < maxChargeTime)
+                    currentCharge += Time.deltaTime;
+            }
+        }
+        else if(charging)
+        {
+            CreateProjectile();
+            charging = false;
+            currentCharge = 0f;
         }
     }
 
     public void AddScore(int score)
     {
         playerScore += score;
+        scoreText.text = playerScore.ToString();
+    }
+
+    public void CreateProjectile()
+    {
+        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        // Get new projectile
+        var go = Instantiate(projectileBase);
+
+        // get transform, rigidbody
+        var tf = go.transform;
+        var rb = go.GetComponent<Rigidbody>();
+        
+        // Set position to mouse
+        tf.position = ray.origin;
+        // Set projectile scale according to charge time
+        tf.localScale = tf.localScale * ((currentCharge / maxChargeTime) * maxProjectileSize);
+        // set projectile mass based on charge time
+        rb.mass = ((currentCharge / maxChargeTime ) * maxProjectileWeight);
+        
+        rb.AddForce(ray.direction * ((currentCharge / maxChargeTime) * maxProjectileSpeed));
     }
 }

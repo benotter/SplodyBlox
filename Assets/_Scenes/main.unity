@@ -128,10 +128,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1633504780}
     m_Modifications:
+    - target: {fileID: 705259124094675363, guid: 00405b6f8d06b01448687f76f4da3fbf,
+        type: 3}
+      propertyPath: onDestroy.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1647650563}
+    - target: {fileID: 705259124094675363, guid: 00405b6f8d06b01448687f76f4da3fbf,
+        type: 3}
+      propertyPath: onDestroy.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AddScore
+      objectReference: {fileID: 0}
     - target: {fileID: 705259124094675368, guid: 00405b6f8d06b01448687f76f4da3fbf,
         type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 705259124094675368, guid: 00405b6f8d06b01448687f76f4da3fbf,
         type: 3}
@@ -197,10 +207,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1633504780}
     m_Modifications:
+    - target: {fileID: 705259124094675363, guid: 00405b6f8d06b01448687f76f4da3fbf,
+        type: 3}
+      propertyPath: onDestroy.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1647650563}
+    - target: {fileID: 705259124094675363, guid: 00405b6f8d06b01448687f76f4da3fbf,
+        type: 3}
+      propertyPath: onDestroy.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AddScore
+      objectReference: {fileID: 0}
     - target: {fileID: 705259124094675368, guid: 00405b6f8d06b01448687f76f4da3fbf,
         type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 705259124094675368, guid: 00405b6f8d06b01448687f76f4da3fbf,
         type: 3}
@@ -344,10 +364,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1633504780}
     m_Modifications:
+    - target: {fileID: 705259124094675363, guid: 00405b6f8d06b01448687f76f4da3fbf,
+        type: 3}
+      propertyPath: onDestroy.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1647650563}
+    - target: {fileID: 705259124094675363, guid: 00405b6f8d06b01448687f76f4da3fbf,
+        type: 3}
+      propertyPath: onDestroy.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AddScore
+      objectReference: {fileID: 0}
     - target: {fileID: 705259124094675368, guid: 00405b6f8d06b01448687f76f4da3fbf,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 705259124094675368, guid: 00405b6f8d06b01448687f76f4da3fbf,
         type: 3}
@@ -425,10 +455,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1633504780}
     m_Modifications:
+    - target: {fileID: 705259124094675363, guid: 00405b6f8d06b01448687f76f4da3fbf,
+        type: 3}
+      propertyPath: onDestroy.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1647650563}
+    - target: {fileID: 705259124094675363, guid: 00405b6f8d06b01448687f76f4da3fbf,
+        type: 3}
+      propertyPath: onDestroy.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AddScore
+      objectReference: {fileID: 0}
     - target: {fileID: 705259124094675368, guid: 00405b6f8d06b01448687f76f4da3fbf,
         type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 705259124094675368, guid: 00405b6f8d06b01448687f76f4da3fbf,
         type: 3}
@@ -494,10 +534,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1633504780}
     m_Modifications:
+    - target: {fileID: 705259124094675363, guid: 00405b6f8d06b01448687f76f4da3fbf,
+        type: 3}
+      propertyPath: onDestroy.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1647650563}
+    - target: {fileID: 705259124094675363, guid: 00405b6f8d06b01448687f76f4da3fbf,
+        type: 3}
+      propertyPath: onDestroy.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AddScore
+      objectReference: {fileID: 0}
     - target: {fileID: 705259124094675368, guid: 00405b6f8d06b01448687f76f4da3fbf,
         type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 705259124094675368, guid: 00405b6f8d06b01448687f76f4da3fbf,
         type: 3}
@@ -587,10 +637,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1633504780}
     m_Modifications:
+    - target: {fileID: 705259124094675363, guid: 00405b6f8d06b01448687f76f4da3fbf,
+        type: 3}
+      propertyPath: onDestroy.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1647650563}
+    - target: {fileID: 705259124094675363, guid: 00405b6f8d06b01448687f76f4da3fbf,
+        type: 3}
+      propertyPath: onDestroy.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AddScore
+      objectReference: {fileID: 0}
     - target: {fileID: 705259124094675368, guid: 00405b6f8d06b01448687f76f4da3fbf,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 705259124094675368, guid: 00405b6f8d06b01448687f76f4da3fbf,
         type: 3}
@@ -964,10 +1024,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1633504780}
     m_Modifications:
+    - target: {fileID: 705259124094675363, guid: 00405b6f8d06b01448687f76f4da3fbf,
+        type: 3}
+      propertyPath: onDestroy.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1647650563}
+    - target: {fileID: 705259124094675363, guid: 00405b6f8d06b01448687f76f4da3fbf,
+        type: 3}
+      propertyPath: onDestroy.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AddScore
+      objectReference: {fileID: 0}
     - target: {fileID: 705259124094675368, guid: 00405b6f8d06b01448687f76f4da3fbf,
         type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 705259124094675368, guid: 00405b6f8d06b01448687f76f4da3fbf,
         type: 3}
@@ -1131,10 +1201,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1633504780}
     m_Modifications:
+    - target: {fileID: 705259124094675363, guid: 00405b6f8d06b01448687f76f4da3fbf,
+        type: 3}
+      propertyPath: onDestroy.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1647650563}
+    - target: {fileID: 705259124094675363, guid: 00405b6f8d06b01448687f76f4da3fbf,
+        type: 3}
+      propertyPath: onDestroy.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AddScore
+      objectReference: {fileID: 0}
     - target: {fileID: 705259124094675368, guid: 00405b6f8d06b01448687f76f4da3fbf,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 705259124094675368, guid: 00405b6f8d06b01448687f76f4da3fbf,
         type: 3}
@@ -1212,6 +1292,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1633504780}
     m_Modifications:
+    - target: {fileID: 705259124094675363, guid: 00405b6f8d06b01448687f76f4da3fbf,
+        type: 3}
+      propertyPath: onDestroy.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1647650563}
+    - target: {fileID: 705259124094675363, guid: 00405b6f8d06b01448687f76f4da3fbf,
+        type: 3}
+      propertyPath: onDestroy.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AddScore
+      objectReference: {fileID: 0}
     - target: {fileID: 705259124094675368, guid: 00405b6f8d06b01448687f76f4da3fbf,
         type: 3}
       propertyPath: m_RootOrder
@@ -1287,10 +1377,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1633504780}
     m_Modifications:
+    - target: {fileID: 705259124094675363, guid: 00405b6f8d06b01448687f76f4da3fbf,
+        type: 3}
+      propertyPath: onDestroy.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1647650563}
+    - target: {fileID: 705259124094675363, guid: 00405b6f8d06b01448687f76f4da3fbf,
+        type: 3}
+      propertyPath: onDestroy.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AddScore
+      objectReference: {fileID: 0}
     - target: {fileID: 705259124094675368, guid: 00405b6f8d06b01448687f76f4da3fbf,
         type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 705259124094675368, guid: 00405b6f8d06b01448687f76f4da3fbf,
         type: 3}
@@ -1435,10 +1535,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1633504780}
     m_Modifications:
+    - target: {fileID: 705259124094675363, guid: 00405b6f8d06b01448687f76f4da3fbf,
+        type: 3}
+      propertyPath: onDestroy.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1647650563}
+    - target: {fileID: 705259124094675363, guid: 00405b6f8d06b01448687f76f4da3fbf,
+        type: 3}
+      propertyPath: onDestroy.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AddScore
+      objectReference: {fileID: 0}
     - target: {fileID: 705259124094675368, guid: 00405b6f8d06b01448687f76f4da3fbf,
         type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 705259124094675368, guid: 00405b6f8d06b01448687f76f4da3fbf,
         type: 3}
@@ -1527,7 +1637,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lockCursorOnStart: 1
+  maxProjectileSpeed: 1000
+  maxProjectileWeight: 1
+  maxProjectileSize: 2.5
+  maxChargeTime: 2
+  scoreText: {fileID: 1907682984}
+  projectileBase: {fileID: 4496542808345796167, guid: 786105628cc2f11479c29ce620e8df84,
+    type: 3}
   playerScore: 0
+  currentCharge: 0
 --- !u!4 &1647650564
 Transform:
   m_ObjectHideFlags: 0
@@ -1536,7 +1654,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1647650562}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -14.879942, y: -10.055524, z: 7.3836794}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1549,6 +1667,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1633504780}
     m_Modifications:
+    - target: {fileID: 705259124094675363, guid: 00405b6f8d06b01448687f76f4da3fbf,
+        type: 3}
+      propertyPath: onDestroy.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1647650563}
+    - target: {fileID: 705259124094675363, guid: 00405b6f8d06b01448687f76f4da3fbf,
+        type: 3}
+      propertyPath: onDestroy.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AddScore
+      objectReference: {fileID: 0}
     - target: {fileID: 705259124094675366, guid: 00405b6f8d06b01448687f76f4da3fbf,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -1557,7 +1685,7 @@ PrefabInstance:
     - target: {fileID: 705259124094675368, guid: 00405b6f8d06b01448687f76f4da3fbf,
         type: 3}
       propertyPath: m_RootOrder
-      value: 17
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 705259124094675368, guid: 00405b6f8d06b01448687f76f4da3fbf,
         type: 3}
@@ -1629,10 +1757,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1633504780}
     m_Modifications:
+    - target: {fileID: 705259124094675363, guid: 00405b6f8d06b01448687f76f4da3fbf,
+        type: 3}
+      propertyPath: onDestroy.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1647650563}
+    - target: {fileID: 705259124094675363, guid: 00405b6f8d06b01448687f76f4da3fbf,
+        type: 3}
+      propertyPath: onDestroy.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AddScore
+      objectReference: {fileID: 0}
     - target: {fileID: 705259124094675368, guid: 00405b6f8d06b01448687f76f4da3fbf,
         type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 705259124094675368, guid: 00405b6f8d06b01448687f76f4da3fbf,
         type: 3}
@@ -1799,6 +1937,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1633504780}
     m_Modifications:
+    - target: {fileID: 705259124094675363, guid: 00405b6f8d06b01448687f76f4da3fbf,
+        type: 3}
+      propertyPath: onDestroy.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1647650563}
+    - target: {fileID: 705259124094675363, guid: 00405b6f8d06b01448687f76f4da3fbf,
+        type: 3}
+      propertyPath: onDestroy.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AddScore
+      objectReference: {fileID: 0}
     - target: {fileID: 705259124094675368, guid: 00405b6f8d06b01448687f76f4da3fbf,
         type: 3}
       propertyPath: m_RootOrder
@@ -1868,10 +2016,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1633504780}
     m_Modifications:
+    - target: {fileID: 705259124094675363, guid: 00405b6f8d06b01448687f76f4da3fbf,
+        type: 3}
+      propertyPath: onDestroy.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1647650563}
+    - target: {fileID: 705259124094675363, guid: 00405b6f8d06b01448687f76f4da3fbf,
+        type: 3}
+      propertyPath: onDestroy.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AddScore
+      objectReference: {fileID: 0}
     - target: {fileID: 705259124094675368, guid: 00405b6f8d06b01448687f76f4da3fbf,
         type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 705259124094675368, guid: 00405b6f8d06b01448687f76f4da3fbf,
         type: 3}
@@ -2027,6 +2185,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1633504780}
     m_Modifications:
+    - target: {fileID: 705259124094675363, guid: 00405b6f8d06b01448687f76f4da3fbf,
+        type: 3}
+      propertyPath: onDestroy.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1647650563}
+    - target: {fileID: 705259124094675363, guid: 00405b6f8d06b01448687f76f4da3fbf,
+        type: 3}
+      propertyPath: onDestroy.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AddScore
+      objectReference: {fileID: 0}
     - target: {fileID: 705259124094675368, guid: 00405b6f8d06b01448687f76f4da3fbf,
         type: 3}
       propertyPath: m_RootOrder
@@ -2107,6 +2275,11 @@ PrefabInstance:
       propertyPath: onDestroy.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1647650563}
+    - target: {fileID: 705259124094675363, guid: 00405b6f8d06b01448687f76f4da3fbf,
+        type: 3}
+      propertyPath: onDestroy.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AddScore
+      objectReference: {fileID: 0}
     - target: {fileID: 705259124094675368, guid: 00405b6f8d06b01448687f76f4da3fbf,
         type: 3}
       propertyPath: m_RootOrder
