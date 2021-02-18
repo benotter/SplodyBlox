@@ -11,6 +11,10 @@ public class PlayerCameraController : MonoBehaviour
     public float maxUpAngle;
     public float maxDownAngle;
 
+    [Space(10)]
+    // Distance from center-point to rotate around (The Radius)
+    public float distanceFromCenter = 4f;
+
     // Just some formatting for the editor inspector
     [Space(10)]
 
@@ -35,6 +39,6 @@ public class PlayerCameraController : MonoBehaviour
 
     private void UpdateMousePosition()
     {
-        
+
     }
 }

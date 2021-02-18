@@ -11,13 +11,22 @@ using UnityEngine;
 */
 public class Director : MonoBehaviour
 {
-    // The players score
+    // Lock Cursor in Window?
+    public bool lockCursorOnStart = false;
+
+    // Just some formatting for the Editor Inspector
+    [Space(10)]
+
+    // The players current score
     public int playerScore = 0;
+
+
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        if(lockCursorOnStart)
+            Cursor.lockState = CursorLockMode.Confined;
     }
 
     // Update is called once per frame
