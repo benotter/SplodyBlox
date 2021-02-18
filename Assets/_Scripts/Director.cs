@@ -28,6 +28,7 @@ public class Director : MonoBehaviour
     [Space(10)]
 
     public Text scoreText;
+    public Text chargeText;
     public GameObject projectileBase;
 
     // The players current score
@@ -40,7 +41,7 @@ public class Director : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if(lockCursorOnStart)
+        if (lockCursorOnStart)
             Cursor.lockState = CursorLockMode.Confined;
     }
 
@@ -49,25 +50,29 @@ public class Director : MonoBehaviour
     {
         bool mouseLeftDown = Input.GetButton("Fire1");
 
-        if(mouseLeftDown)
+        if (mouseLeftDown)
         {
-            if(!charging)
+            if (!charging)
                 charging = true;
             else
             {
-                if(currentCharge < maxChargeTime)
+                if (currentCharge < maxChargeTime)
+                {
                     currentCharge += Time.deltaTime;
+                    chargeText.text = ((int)((currentCharge / maxChargeTime)*100)).ToString();
+                }
             }
         }
-        else if(charging)
+        else if (charging)
         {
             CreateProjectile();
             charging = false;
             currentCharge = 0f;
+            chargeText.text = "0";
         }
 
         // Reloads Scene on Space
-        if(Input.GetKeyDown("space"))
+        if (Input.GetKeyDown("space"))
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
@@ -86,14 +91,14 @@ public class Director : MonoBehaviour
         // get transform, rigidbody
         var tf = go.transform;
         var rb = go.GetComponent<Rigidbody>();
-        
+
         // Set position to mouse
         tf.position = ray.origin;
         // Set projectile scale according to charge time
         tf.localScale = tf.localScale * ((currentCharge / maxChargeTime) * maxProjectileSize);
         // set projectile mass based on charge time
-        rb.mass = ((currentCharge / maxChargeTime ) * maxProjectileWeight);
-        
+        rb.mass = ((currentCharge / maxChargeTime) * maxProjectileWeight);
+
         rb.AddForce(ray.direction * ((currentCharge / maxChargeTime) * maxProjectileSpeed));
     }
 }
